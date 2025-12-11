@@ -16,9 +16,6 @@
   },
   "jest": {
     "testEnvironment": "jsdom",
-    "setupFilesAfterEnv": [
-      "<rootDir>/src/js/setupTests.js"
-    ]
   },
   "author": "coursar",
   "license": "MIT",
