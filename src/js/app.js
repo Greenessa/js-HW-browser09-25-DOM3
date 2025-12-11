@@ -62,9 +62,9 @@ export function outputTitle() {
         cellElTitle.textContent = "imdb";
         break;
     }
-    rowElTitle.appendChild(cellElTitle);
+    rowElTitle.append(cellElTitle);
     let tableEl = document.querySelector(".table");
-    tableEl.appendChild(rowElTitle);
+    tableEl.append(rowElTitle);
   }
 }
 
@@ -92,9 +92,9 @@ export function outputFilms1(arrayFilms) {
           rowEl.setAttribute("data-imdb", film.imdb);
           break;
       }
-      rowEl.appendChild(cellEl);
+      rowEl.append(cellEl);
       let tableEl = document.querySelector(".table");
-      tableEl.appendChild(rowEl);
+      tableEl.append(rowEl);
     }
   }
 }
@@ -122,9 +122,9 @@ export function outputFilms2(arrayFilms) {
           rowEl.setAttribute("data-imdb", film.dataset.imdb);
           break;
       }
-      rowEl.appendChild(cellEl);
+      rowEl.append(cellEl);
       let tableEl = document.querySelector(".table");
-      tableEl.appendChild(rowEl);
+      tableEl.append(rowEl);
     }
   }
 }
