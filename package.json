@@ -15,7 +15,7 @@
     "show:dist": "http-server dist"
   },
   "jest": {
-    "testEnvironment": "jsdom",
+    "testEnvironment": "jsdom"
   },
   "author": "coursar",
   "license": "MIT",
